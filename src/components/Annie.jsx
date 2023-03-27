@@ -7,53 +7,71 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import { Link } from 'react-router-dom';
+import Navbar from './Navbar';
 
 const Annie = () => {
   return (
     <>
 
-        <nav className="flex items-center justify-between flex-wrap bg-pink-500 p-6">
-            <div className="flex items-center flex-shrink-0 text-white mr-6">
-                <svg className="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54"
-                     xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/>
-                </svg>
-                <span className="font-semibold text-xl tracking-tight">Annie</span>
-            </div>
-            <div className="block lg:hidden">
-                <button
-                    className="flex items-center px-3 py-2 border rounded text-pink-200 border-pink-400 hover:text-white hover:border-white">
-                    <svg className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <title>Menu</title>
-                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
-                    </svg>
-                </button>
-            </div>
-            <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-                <div className="text-sm lg:flex-grow">
-                    <a href="#responsive-header"
-                       className="block mt-4 lg:inline-block lg:mt-0 text-pink-200 hover:text-white mr-4">
-                        Docs
-                    </a>
-                    <a href="#responsive-header"
-                       className="block mt-4 lg:inline-block lg:mt-0 text-pink-200 hover:text-white mr-4">
-                        Examples
-                    </a>
-                    <a href="#responsive-header"
-                       className="block mt-4 lg:inline-block lg:mt-0 text-pink-200 hover:text-white">
-                        Blog
-                    </a>
-                </div>
-                <div>
-                    <a href="#"
-                       className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-pink-500 hover:bg-white mt-4 lg:mt-0">Download</a>
-                </div>
-            </div>
-        </nav>
+        <Navbar />
         <div>
-            <img  src="https://media-be.chewy.com/wp-content/uploads/2021/05/27134335/Dalmatian_FeaturedImage.jpg" alt="" />
+            <img  src="/images/cover.jpg" alt="" />
         </div>
+        <div className="flex justify-center bg-blue-500 p-4">
+                                            <div className="flex flex-col justify-center items-center ">
+                                                <div className="text-white text-3xl font-medium">Our Trusted Clients</div>
+                                                <div className="flex flex-col md:flex-row max-w-7xl justify-center items-center ">
+                                    
+                                                    <div className="overflow-hidden w-full m-4 flex justify-center bg-white rounded-lg  md:w-[33%] px-8">
+                                    
+                                                        <div className="flex flex-col md:flex-row items-center justify-center  ">
+                                                            <div className="  items-center justify-center flex py-2">
+                                                                <div className="flex flex-col  items-center justify-center text-center">
+                                                                    <img src="https://source.unsplash.com/150x150/?man,boy" alt="" className="rounded-full" />
+                                                                    <div className="text-stone-600 font-medium m-2"> Tailblocks provides best Tailwind CSS
+                                                                        Components and Blocks to create an unique websites within minutes.</div>
+                                                                    <div className="font-bold">John Doe</div>
+                                                                    <div className="text-cyan-600 italic"><a href="#">Board Director of Tailblocks</a></div>
+                                                                </div>
+                                                            </div>
+                                    
+                                                        </div>
+                                                    </div>
+                                                    <div className="overflow-hidden w-full m-4 flex justify-center bg-white rounded-lg  md:w-[33%] px-8">
+                                    
+                                                        <div className="flex flex-col md:flex-row items-center justify-center  ">
+                                                            <div className="  items-center justify-center flex py-2">
+                                                                <div className="flex flex-col  items-center justify-center text-center">
+                                                                    <img src="https://source.unsplash.com/150x150/?girl" alt="" className="rounded-full" />
+                                                                    <div className="text-stone-600 font-medium m-2"> Tailblocks provides best Tailwind CSS
+                                                                        Components and Blocks to create an unique websites within minutes.</div>
+                                                                    <div className="font-bold">Jessie</div>
+                                                                    <div className="text-cyan-600 italic"><a href="#">MD of Tailblocks</a></div>
+                                                                </div>
+                                                            </div>
+                                    
+                                                        </div>
+                                                    </div>
+                                                    <div className="overflow-hidden w-full m-4 flex justify-center bg-white rounded-lg  md:w-[33%] px-8">
+                                    
+                                                        <div className="flex flex-col md:flex-row items-center justify-center  ">
+                                                            <div className="  items-center justify-center flex py-2">
+                                                                <div className="flex flex-col  items-center justify-center text-center">
+                                                                    <img src="https://source.unsplash.com/150x150/?girl,woman" alt=""
+                                                                        className="rounded-full" />
+                                                                    <div className="text-stone-600 font-medium m-2"> Tailblocks provides best Tailwind CSS
+                                                                        Components and Blocks to create an unique websites within minutes.</div>
+                                                                    <div className="font-bold">Davina Claire</div>
+                                                                    <div className="text-cyan-600 italic"><a href="#">Board Director of Tailblocks</a></div>
+                                                                </div>
+                                                            </div>
+                                    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div> 
     <Swiper className='mt-16'
         
         fadeEffect={{crossFade:true}}
@@ -256,7 +274,7 @@ const Annie = () => {
                     </div>
                     <div className="flex items-start justify-center ml-12 space-x-4 lg:justify-start">
                         <img className="w-24 rounded-lg shadow-lg md:w-40" width="170" src="/images/3.jpg" alt="3"/>
-                        <img className="w-32 rounded-lg shadow-lg md:w-56" width="200" src="/images/object/9.jpg" alt="4"/>
+                        <img className="w-32 rounded-lg shadow-lg md:w-56" width="200" src="/images/slider1.jpg" alt="4"/>
                     </div>
                 </div>
             </div>

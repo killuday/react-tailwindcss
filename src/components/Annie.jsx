@@ -16,7 +16,7 @@ const Annie = () => {
 
         <Navbar />
         <div>
-            <img  src="/images/cover.jpg" alt="" />
+            <img  src="../images/cover.jpg" alt="" />
         </div>
         <div className="flex justify-center bg-blue-500 p-4">
                                             <div className="flex flex-col justify-center items-center ">

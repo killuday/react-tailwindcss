@@ -2,6 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBagShopping, faCannabis, faWallet } from '@fortawesome/free-solid-svg-icons'
 import Navbar from './Navbar'
+import Footer from './Footer'
 
 
 const Login = () => {
@@ -10,7 +11,7 @@ const Login = () => {
   return (
     <>
     <Navbar />
-          <div className="flex justify-center">
+          <div className="flex justify-center mb-20">
                                             <div
                                                 className="flex mt-32 flex-col justify-center items-center md:flex-row shadow rounded-xl max-w-7xl w-[90%] h-[670px] md:h-[460px] m-2">
                                                 <div className="h-[100%] w-full md:w-3/4  bg-center  bg-cover rounded-lg"
@@ -66,6 +67,7 @@ const Login = () => {
                                                 </div>
                                             </div>
                                         </div>
+                                        <Footer  />
                        </>              
   )
 }

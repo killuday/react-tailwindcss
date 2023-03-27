@@ -11,7 +11,7 @@ const Navbar = () => {
                     <path
                         d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/>
                 </svg>
-             <Link to={"/"} ><span className="font-semibold text-white  text-4xl tracking-tight">Annie</span></Link>   
+             <Link to="/" ><span className="font-semibold text-white   text-4xl tracking-tight">Annie</span></Link>   
             </div>
             <div className="block lg:hidden">
                 <button
@@ -24,22 +24,26 @@ const Navbar = () => {
             </div>
             <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
                 <div className="text-sm lg:flex-grow">
-                    <a href="#responsive-header"
+                 <Link to={"/contact"} >  <a href="#responsive-header"
                        className="block mt-4 lg:inline-block lg:mt-0 text-pink-100 hover:text-white text-2xl mr-4">
-                        Coming
-                    </a>
-                    <a href="#responsive-header"
+                        Contact
+                    </a> </Link >
+                   <Link to={"/signup"} > <a href="#responsive-header"
                        className="block mt-4 lg:inline-block lg:mt-0 text-pink-100 text-2xl hover:text-white mr-4">
                         Soon
-                    </a>
+                    </a></Link>
                     <a href="#responsive-header"
                        className="block mt-4 lg:inline-block lg:mt-0 text-pink-100 text-2xl hover:text-white">
                        ...................
                     </a>
                 </div>
                 <div>
+                 <Link to={"/signup"}  ><a 
+                       className="inline-block text-xxl px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-pink-500 hover:bg-white mt-4  lg:mt-0">Sign Up</a></Link>
+                </div>
+                <div>
                  <Link to={"/login"}  ><a 
-                       className="inline-block text-xl px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-pink-500 hover:bg-white mt-4  lg:mt-0">Login</a></Link>
+                       className="inline-block text-xxl ml-10 px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-pink-500 hover:bg-white mt-4  lg:mt-0">Login</a></Link>
                 </div>
             </div>
         </nav>

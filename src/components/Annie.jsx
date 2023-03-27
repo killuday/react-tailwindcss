@@ -17,7 +17,7 @@ const Annie = () => {
         <Navbar />
     
         <div>
-            <img  src=".\Images\cover.jpg" alt="" />
+            <img  src=".\Images\cover.jpg" className='object-cover' alt="" />
         </div>
         <div className="flex justify-center bg-blue-500 p-4">
                                             <div className="flex flex-col justify-center items-center ">
@@ -419,7 +419,7 @@ const Annie = () => {
                 </form>
             </div>
             <div className="text-center pt-10 sm:pt-12 font-light flex items-center justify-center">
-                Created by Uday
+                Powered by Uday
             </div>
         </div>
     </footer>

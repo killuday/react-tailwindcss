@@ -12,7 +12,7 @@ const Login = () => {
                                             <div
                                                 className="flex mt-32 flex-col justify-center items-center md:flex-row shadow rounded-xl max-w-7xl w-[90%] h-[670px] md:h-[460px] m-2">
                                                 <div className="h-[100%] w-full md:w-3/4  bg-center  bg-cover rounded-lg"
-                                                    style={{backgroundImage: `url(./images/slider5.jpg)`}}>
+                                                    style={{backgroundImage: `url(../images/slider5.jpg)`}}>
                                                     <div className="text-lg lg:text-xl text-center mt-16 space-x-5">
                                                        
                                                         <FontAwesomeIcon icon={faBagShopping} className=" text-cyan-400 bg-white rounded-full px-[10px] py-[10px]" >
@@ -55,7 +55,7 @@ const Login = () => {
                                                     </div>
                                                     <div className="text-center mt-7">
                                                         <button
-                                                            className="uppercase px-24 md:px-[118px] lg:px-[140px] py-2 rounded-md text-white bg-blue-500 hover:bg-blue-600  font-medium ">login</button>
+                                                            className="uppercase px-24 md:h-20  md:px-[118px] lg:px-[140px] py-2 rounded-md text-white bg-blue-500 hover:bg-blue-600  font-medium ">login</button>
                                                     </div>
                                                     <div className="text-center my-6">
                                                         <a href="#" className="text-sm font-medium text-gray-400 hover:text-blue-500 hover:underline">Forgot

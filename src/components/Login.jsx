@@ -12,7 +12,7 @@ const Login = () => {
                                             <div
                                                 className="flex mt-32 flex-col justify-center items-center md:flex-row shadow rounded-xl max-w-7xl w-[90%] h-[670px] md:h-[460px] m-2">
                                                 <div className="h-[100%] w-full md:w-3/4  bg-center  bg-cover rounded-lg"
-                                                    style={{backgroundImage: `url(../images/slider5.jpg)`}}>
+                                                    style={{backgroundImage: `url(/images/slider5.jpg)`}}>
                                                     <div className="text-lg lg:text-xl text-center mt-16 space-x-5">
                                                        
                                                         <FontAwesomeIcon icon={faBagShopping} className=" text-cyan-400 bg-white rounded-full px-[10px] py-[10px]" >

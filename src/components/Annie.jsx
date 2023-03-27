@@ -87,7 +87,7 @@ const Annie = () => {
         
         >
         <SwiperSlide><img src=".\Images\slider1.jpg" /></SwiperSlide>
-        <SwiperSlide><img src="./Images/slider2.jpg" /></SwiperSlide>
+        <SwiperSlide><img src=".\Images\3.jpg" /></SwiperSlide>
         <SwiperSlide><img src=".\Images\slider3.jpg" /></SwiperSlide>
         <SwiperSlide><img src=".\Images\slider5.jpg" /></SwiperSlide>
         ...

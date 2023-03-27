@@ -86,10 +86,10 @@ const Annie = () => {
         onSlideChange={() => console.log('slide change')}
         
         >
-        <SwiperSlide><img src="/images/slider1.jpg" /></SwiperSlide>
-        <SwiperSlide><img src="/images/slider2.jpg" /></SwiperSlide>
-        <SwiperSlide><img src="/images/slider3.jpg" /></SwiperSlide>
-        <SwiperSlide><img src="/images/slider5.jpg" /></SwiperSlide>
+        <SwiperSlide><img src=".\Images\slider1.jpg" /></SwiperSlide>
+        <SwiperSlide><img src=".\Images\slider2.jpg" /></SwiperSlide>
+        <SwiperSlide><img src=".\Images\slider3.jpg" /></SwiperSlide>
+        <SwiperSlide><img src=".\Images\slider5.jpg" /></SwiperSlide>
         ...
     </Swiper>
 
@@ -270,12 +270,12 @@ const Annie = () => {
             <div className="relative mt-10 lg:-mx-4 relative-20 lg:mt-0 lg:col-start-1">
                 <div className="relative space-y-4">
                     <div className="flex items-end justify-center space-x-4 lg:justify-start">
-                        <img className="w-32 rounded-lg shadow-lg md:w-56" width="200" src="/images/1.jpg"alt="1"/>
-                        <img className="w-40 rounded-lg shadow-lg md:w-64" width="260" src="/images/2.jpg" alt="2"/>
+                        <img className="w-32 rounded-lg shadow-lg md:w-56" width="200" src=".\Images\1.jpg"alt="1"/>
+                        <img className="w-40 rounded-lg shadow-lg md:w-64" width="260" src=".\Images\2.jpg" alt="2"/>
                     </div>
                     <div className="flex items-start justify-center ml-12 space-x-4 lg:justify-start">
-                        <img className="w-24 rounded-lg shadow-lg md:w-40" width="170" src="/images/3.jpg" alt="3"/>
-                        <img className="w-32 rounded-lg shadow-lg md:w-56" width="200" src="/images/slider1.jpg" alt="4"/>
+                        <img className="w-24 rounded-lg shadow-lg md:w-40" width="170" src=".\Images\3.jpg" alt="3"/>
+                        <img className="w-32 rounded-lg shadow-lg md:w-56" width="200" src=".\Images\slider1.jpg" alt="4"/>
                     </div>
                 </div>
             </div>

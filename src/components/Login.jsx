@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBagShopping, faCannabis, faWallet } from '@fortawesome/free-solid-svg-icons'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import { Link } from 'react-router-dom'
 
 
 const Login = () => {
@@ -18,20 +19,20 @@ const Login = () => {
                                                     style={{backgroundImage: `url("./Images/slider5.jpg")`}}>
                                                     <div className="text-lg lg:text-xl text-center mt-16 space-x-5">
                                                        
-                                                        <FontAwesomeIcon icon={faBagShopping} className=" text-cyan-400 bg-white rounded-full px-[10px] py-[10px]" >
+                                                        <FontAwesomeIcon icon={faBagShopping} className=" text-pink-400 bg-white rounded-full px-[10px] py-[10px]" >
                                                            
                                                         </FontAwesomeIcon>
-                                                        <FontAwesomeIcon icon={faWallet} className=" text-cyan-400 bg-white rounded-full px-[10px] py-[10px]" >
+                                                        <FontAwesomeIcon icon={faWallet} className=" text-pink-400 bg-white rounded-full px-[10px] py-[10px]" >
                                                            
                                                         </FontAwesomeIcon>
-                                                        <FontAwesomeIcon icon={faCannabis} className=" text-cyan-400 bg-white rounded-full px-[10px] py-[10px]" >
+                                                        <FontAwesomeIcon icon={faCannabis} className=" text-pink-400 bg-white rounded-full px-[10px] py-[10px]" >
                                                            
                                                         </FontAwesomeIcon>
                                                      
                                                     </div>
                                                     <div className="text-white text-base font-semibold text-center my-10 space-y-2">
                                                         <h1 className="">Don't have an account ?</h1>
-                                                        <h3> <a href="#" className="underline underline-offset-4 tracking-wide hover:text-blue-400">Signup</a> </h3>
+                                                        <h3> <Link to={"/signup"}> <a  className="underline underline-offset-4 tracking-wide hover:text-blue-400">Signup</a></Link> </h3>
                                                     </div>
                                     
                                                 </div>
@@ -45,11 +46,11 @@ const Login = () => {
                                                     <div className="flex flex-col justify-center items-center mt-10 md:mt-14 space-y-6 md:space-y-8">
                                                         <div className="">
                                                             <input type="text" placeholder="User Name"
-                                                                className=" bg-gray-100 rounded-lg px-5 py-2 focus:border border-blue-600 focus:outline-none text-black placeholder:text-gray-600 placeholder:opacity-50 font-semibold md:h-20 md:w-72 lg:w-[340px]" />
+                                                                className=" bg-gray-100 rounded-lg px-5 py-2 focus:border border-pink-600 focus:outline-none text-black placeholder:text-gray-600 placeholder:opacity-50 font-semibold md:h-20 md:w-72 lg:w-[340px]" />
                                                         </div>
                                                         <div className="">
                                                             <input type="password" placeholder="Password"
-                                                                className=" bg-gray-100 rounded-lg px-5 py-2 focus:border border-blue-600 focus:outline-none text-black placeholder:text-gray-600 placeholder:opacity-50 font-semibold md:h-20 md:w-72 lg:w-[340px]" />
+                                                                className=" bg-gray-100 rounded-lg px-5 py-2 focus:border border-pink-600 focus:outline-none text-black placeholder:text-gray-600 placeholder:opacity-50 font-semibold md:h-20 md:w-72 lg:w-[340px]" />
                                                         </div>
                                                         <div className="flex space-x-2 -ml-28 md:-ml-40  lg:-ml-52">
                                                             <input className="" type="checkbox" id="checkbox" name="checkbox" />
@@ -58,7 +59,7 @@ const Login = () => {
                                                     </div>
                                                     <div className="text-center mt-7">
                                                         <button
-                                                            className="uppercase px-24 md:h-20  md:px-[118px] lg:px-[140px] py-2 rounded-md text-white bg-blue-500 hover:bg-blue-600  font-medium ">login</button>
+                                                            className="uppercase px-24 md:h-20  md:px-[118px] lg:px-[140px] py-2 rounded-md text-white bg-pink-500 hover:bg-pink-600  font-medium ">login</button>
                                                     </div>
                                                     <div className="text-center my-6">
                                                         <a href="#" className="text-sm font-medium text-gray-400 hover:text-blue-500 hover:underline">Forgot
